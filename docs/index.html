@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pixel Bulwark · 像素防线：破晓之战</title>
 <meta name="description" content="Pixel Bulwark — 像素防线：破晓之战。2D 回合制策略生存：昼夜交替、采集建造、兵种相克、坚守十个昼夜。">
-<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
 <!-- ══════════════════ 顶栏 ══════════════════ -->
 <header class="topbar">
   <div class="topbar-inner">
-    <img class="logo" src="../UI%20Elements/logo.png" alt="Pixel Bulwark">
+    <img class="logo" src="assets/logo.png" alt="Pixel Bulwark">
     <nav aria-label="章节导航">
       <a href="#overview"  data-i18n="nav.overview">概览</a>
       <a href="#loop"      data-i18n="nav.loop">核心玩法</a>
@@ -93,22 +93,22 @@
       <p data-i18n="loop.res.p">四种资源决定你这一夜守不守得住：食物保命、木材筑墙、金币买兵、宝石升级。</p>
       <div class="grid wide res4">
         <div class="card">
-          <div class="portrait"><img src="../UI%20Elements/Icons/Icon_04.png" alt="食物" data-i18n-alt="res.food"></div>
+          <div class="portrait"><img src="assets/icons/Icon_04.png" alt="食物" data-i18n-alt="res.food"></div>
           <h4><span data-i18n="res.food">食物</span></h4>
           <p class="desc" data-i18n="loop.res.food">猎动物或下渔网捕鱼获得。每个单位每回合都要吃 1 点食物——兵越多，饭吃得越快。</p>
         </div>
         <div class="card">
-          <div class="portrait"><img src="../UI%20Elements/Icons/Icon_02.png" alt="木材" data-i18n-alt="res.wood"></div>
+          <div class="portrait"><img src="assets/icons/Icon_02.png" alt="木材" data-i18n-alt="res.wood"></div>
           <h4><span data-i18n="res.wood">木材</span></h4>
           <p class="desc" data-i18n="loop.res.wood">砍树获得。每棵树只有有限的木材，砍光后只剩树桩。</p>
         </div>
         <div class="card">
-          <div class="portrait"><img src="../UI%20Elements/Icons/Icon_03.png" alt="金币" data-i18n-alt="res.gold"></div>
+          <div class="portrait"><img src="assets/icons/Icon_03.png" alt="金币" data-i18n-alt="res.gold"></div>
           <h4><span data-i18n="res.gold">金币</span></h4>
           <p class="desc" data-i18n="loop.res.gold">开采金矿获得。每座矿只有有限的金币，采完就空了。</p>
         </div>
         <div class="card">
-          <div class="portrait"><img src="../resource/Diamond.png" alt="宝石" data-i18n-alt="res.diamond"></div>
+          <div class="portrait"><img src="assets/gems/Diamond.png" alt="宝石" data-i18n-alt="res.diamond"></div>
           <h4><span data-i18n="res.diamond">宝石</span></h4>
           <p class="desc" data-i18n="loop.res.diamond">只能从宝箱和巨魔身上拿到，是城堡升级唯一的硬通货——想变强就得去开箱、或者去啃巨魔。</p>
         </div>
@@ -210,7 +210,7 @@
 
       <!-- 城镇大厅 -->
       <div class="card">
-        <div class="portrait"><img src="../buildings/Castle.png" alt="城镇大厅" data-i18n-alt="bld.town_hall.name"></div>
+        <div class="portrait"><img src="assets/buildings/Castle.png" alt="城镇大厅" data-i18n-alt="bld.town_hall.name"></div>
         <h4><span data-i18n="bld.town_hall.name">城镇大厅</span><span class="latin">town_hall</span></h4>
         <p class="desc" data-i18n="bld.town_hall.desc">主基地，能源源不断生产农民；塔顶还能驻守弓箭手。</p>
         <dl class="kv">
@@ -220,8 +220,8 @@
           <dt data-i18n="stat.build">建造点数</dt><dd>18</dd>
           <dt data-i18n="stat.buildCost">造价</dt>
           <dd><span class="costs">
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">500</span>
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">100</span>
+            <span class="cost"><img src="assets/icons/Icon_02.png" alt="">500</span>
+            <span class="cost"><img src="assets/icons/Icon_03.png" alt="">100</span>
           </span></dd>
           <dt data-i18n="stat.production">产出</dt><dd data-i18n="bld.produceFarmer">农民 ×1</dd>
           <dt data-i18n="stat.pop">人口上限</dt><dd>—</dd>
@@ -231,7 +231,7 @@
 
       <!-- 民居 -->
       <div class="card">
-        <div class="portrait"><img src="../buildings/House1.png" alt="民居" data-i18n-alt="bld.house.name"></div>
+        <div class="portrait"><img src="assets/buildings/House1.png" alt="民居" data-i18n-alt="bld.house.name"></div>
         <h4><span data-i18n="bld.house.name">民居</span><span class="latin">house</span></h4>
         <p class="desc" data-i18n="bld.house.desc">人口上限 +2。</p>
         <dl class="kv">
@@ -241,8 +241,8 @@
           <dt data-i18n="stat.build">建造点数</dt><dd>6</dd>
           <dt data-i18n="stat.buildCost">造价</dt>
           <dd><span class="costs">
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">80</span>
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">15</span>
+            <span class="cost"><img src="assets/icons/Icon_02.png" alt="">80</span>
+            <span class="cost"><img src="assets/icons/Icon_03.png" alt="">15</span>
           </span></dd>
           <dt data-i18n="stat.production">产出</dt><dd data-i18n="bld.produceNone">—</dd>
           <dt data-i18n="stat.pop">人口上限</dt><dd>+2</dd>
@@ -252,7 +252,7 @@
 
       <!-- 射箭场 -->
       <div class="card">
-        <div class="portrait"><img src="../buildings/Archery.png" alt="射箭场" data-i18n-alt="bld.archery.name"></div>
+        <div class="portrait"><img src="assets/buildings/Archery.png" alt="射箭场" data-i18n-alt="bld.archery.name"></div>
         <h4><span data-i18n="bld.archery.name">射箭场</span><span class="latin">archery</span></h4>
         <p class="desc" data-i18n="bld.archery.desc">生产弓箭。</p>
         <dl class="kv">
@@ -262,8 +262,8 @@
           <dt data-i18n="stat.build">建造点数</dt><dd>4</dd>
           <dt data-i18n="stat.buildCost">造价</dt>
           <dd><span class="costs">
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">120</span>
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">20</span>
+            <span class="cost"><img src="assets/icons/Icon_02.png" alt="">120</span>
+            <span class="cost"><img src="assets/icons/Icon_03.png" alt="">20</span>
           </span></dd>
           <dt data-i18n="stat.production">产出</dt><dd data-i18n="bld.produceArcher">弓箭手 ×2</dd>
           <dt data-i18n="stat.pop">人口上限</dt><dd>+1</dd>
@@ -273,7 +273,7 @@
 
       <!-- 兵营 -->
       <div class="card">
-        <div class="portrait"><img src="../buildings/Barracks.png" alt="兵营" data-i18n-alt="bld.barracks.name"></div>
+        <div class="portrait"><img src="assets/buildings/Barracks.png" alt="兵营" data-i18n-alt="bld.barracks.name"></div>
         <h4><span data-i18n="bld.barracks.name">兵营</span><span class="latin">barracks</span></h4>
         <p class="desc" data-i18n="bld.barracks.desc">生产近战部队。人口上限 +1</p>
         <dl class="kv">
@@ -283,8 +283,8 @@
           <dt data-i18n="stat.build">建造点数</dt><dd>6</dd>
           <dt data-i18n="stat.buildCost">造价</dt>
           <dd><span class="costs">
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">120</span>
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">40</span>
+            <span class="cost"><img src="assets/icons/Icon_02.png" alt="">120</span>
+            <span class="cost"><img src="assets/icons/Icon_03.png" alt="">40</span>
           </span></dd>
           <dt data-i18n="stat.production">产出</dt><dd data-i18n="bld.produceLancer">枪兵 ×1 + 剑士 ×1</dd>
           <dt data-i18n="stat.pop">人口上限</dt><dd>+1</dd>
@@ -294,7 +294,7 @@
 
       <!-- 修道院 -->
       <div class="card">
-        <div class="portrait"><img src="../buildings/Monastery.png" alt="修道院" data-i18n-alt="bld.monastery.name"></div>
+        <div class="portrait"><img src="assets/buildings/Monastery.png" alt="修道院" data-i18n-alt="bld.monastery.name"></div>
         <h4><span data-i18n="bld.monastery.name">修道院</span><span class="latin">monastery</span></h4>
         <p class="desc" data-i18n="bld.monastery.desc">生产修士，能近战也会治疗友军。人口达到 14 才能开工。人口上限 +1</p>
         <dl class="kv">
@@ -304,8 +304,8 @@
           <dt data-i18n="stat.build">建造点数</dt><dd>8</dd>
           <dt data-i18n="stat.buildCost">造价</dt>
           <dd><span class="costs">
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">120</span>
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">40</span>
+            <span class="cost"><img src="assets/icons/Icon_02.png" alt="">120</span>
+            <span class="cost"><img src="assets/icons/Icon_03.png" alt="">40</span>
           </span></dd>
           <dt data-i18n="stat.production">产出</dt><dd data-i18n="bld.produceMonk">修士 ×1</dd>
           <dt data-i18n="stat.pop">人口上限</dt><dd>+1</dd>
@@ -316,7 +316,7 @@
 
       <!-- 塔楼 -->
       <div class="card">
-        <div class="portrait"><img src="../buildings/Tower.png" alt="塔楼" data-i18n-alt="bld.tower.name"></div>
+        <div class="portrait"><img src="assets/buildings/Tower.png" alt="塔楼" data-i18n-alt="bld.tower.name"></div>
         <h4><span data-i18n="bld.tower.name">塔楼</span><span class="latin">tower</span></h4>
         <p class="desc" data-i18n="bld.tower.desc">防御工事：血厚、防御高，塔顶还能站弓箭手扩大射程。</p>
         <dl class="kv">
@@ -326,8 +326,8 @@
           <dt data-i18n="stat.build">建造点数</dt><dd>6</dd>
           <dt data-i18n="stat.buildCost">造价</dt>
           <dd><span class="costs">
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">100</span>
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">30</span>
+            <span class="cost"><img src="assets/icons/Icon_02.png" alt="">100</span>
+            <span class="cost"><img src="assets/icons/Icon_03.png" alt="">30</span>
           </span></dd>
           <dt data-i18n="stat.production">产出</dt><dd data-i18n="bld.produceArcher">弓箭手 ×2</dd>
           <dt data-i18n="stat.pop">人口上限</dt><dd>—</dd>
@@ -356,7 +356,7 @@
     <div class="grid wide">
 
       <div class="card">
-        <div class="portrait unit-icon"><img src="../UI%20Elements/Icons/product_farmer.png" alt="农民" data-i18n-alt="unit.farmer.name"></div>
+        <div class="portrait unit-icon"><img src="assets/icons/product_farmer.png" alt="农民" data-i18n-alt="unit.farmer.name"></div>
         <h4><span data-i18n="unit.farmer.name">农民</span><span class="latin">farmer</span></h4>
         <p class="desc" data-i18n="unit.farmer.desc">采集和建造的主力，一个人干两份活。</p>
         <dl class="kv">
@@ -368,14 +368,14 @@
           <dt data-i18n="stat.stamina">体力上限</dt><dd>12</dd>
           <dt data-i18n="stat.cost">招募造价</dt>
           <dd><span class="costs">
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_04.png" alt="">50</span>
+            <span class="cost"><img src="assets/icons/Icon_04.png" alt="">50</span>
           </span></dd>
         </dl>
         <p class="special" data-i18n="unit.farmer.special">砍树 +5 木材/刀。</p>
       </div>
 
       <div class="card">
-        <div class="portrait unit-icon"><img src="../UI%20Elements/Icons/product_archer.png" alt="弓箭手" data-i18n-alt="unit.archer.name"></div>
+        <div class="portrait unit-icon"><img src="assets/icons/product_archer.png" alt="弓箭手" data-i18n-alt="unit.archer.name"></div>
         <h4><span data-i18n="unit.archer.name">弓箭手</span><span class="latin">archer</span></h4>
         <p class="desc" data-i18n="unit.archer.desc">远程主力，射程 2 格，站在后面输出最安全。</p>
         <dl class="kv">
@@ -387,16 +387,16 @@
           <dt data-i18n="stat.stamina">体力上限</dt><dd>12</dd>
           <dt data-i18n="stat.cost">招募造价</dt>
           <dd><span class="costs">
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">30</span>
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">15</span>
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_04.png" alt="">50</span>
+            <span class="cost"><img src="assets/icons/Icon_02.png" alt="">30</span>
+            <span class="cost"><img src="assets/icons/Icon_03.png" alt="">15</span>
+            <span class="cost"><img src="assets/icons/Icon_04.png" alt="">50</span>
           </span></dd>
         </dl>
         <p class="special" data-i18n="unit.archer.special">射程 2 格；对飞行 ×1.3。</p>
       </div>
 
       <div class="card">
-        <div class="portrait unit-icon"><img src="../UI%20Elements/Icons/product_lancer.png" alt="枪兵" data-i18n-alt="unit.lancer.name"></div>
+        <div class="portrait unit-icon"><img src="assets/icons/product_lancer.png" alt="枪兵" data-i18n-alt="unit.lancer.name"></div>
         <h4><span data-i18n="unit.lancer.name">枪兵</span><span class="latin">lancer</span></h4>
         <p class="desc" data-i18n="unit.lancer.desc">近战步兵，攻击力高，被打还会自动还手。</p>
         <dl class="kv">
@@ -408,16 +408,16 @@
           <dt data-i18n="stat.stamina">体力上限</dt><dd>12</dd>
           <dt data-i18n="stat.cost">招募造价</dt>
           <dd><span class="costs">
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">15</span>
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">20</span>
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_04.png" alt="">50</span>
+            <span class="cost"><img src="assets/icons/Icon_02.png" alt="">15</span>
+            <span class="cost"><img src="assets/icons/Icon_03.png" alt="">20</span>
+            <span class="cost"><img src="assets/icons/Icon_04.png" alt="">50</span>
           </span></dd>
         </dl>
         <p class="special" data-i18n="unit.lancer.special">被动反击 40%；对投掷 ×1.3。</p>
       </div>
 
       <div class="card">
-        <div class="portrait unit-icon"><img src="../UI%20Elements/Icons/product_warrior.png" alt="剑士" data-i18n-alt="unit.warrior.name"></div>
+        <div class="portrait unit-icon"><img src="assets/icons/product_warrior.png" alt="剑士" data-i18n-alt="unit.warrior.name"></div>
         <h4><span data-i18n="unit.warrior.name">剑士</span><span class="latin">warrior</span></h4>
         <p class="desc" data-i18n="unit.warrior.desc">近战主力：攻击和防御都是兵种里最高的。</p>
         <dl class="kv">
@@ -429,16 +429,16 @@
           <dt data-i18n="stat.stamina">体力上限</dt><dd>12</dd>
           <dt data-i18n="stat.cost">招募造价</dt>
           <dd><span class="costs">
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">30</span>
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">20</span>
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_04.png" alt="">60</span>
+            <span class="cost"><img src="assets/icons/Icon_02.png" alt="">30</span>
+            <span class="cost"><img src="assets/icons/Icon_03.png" alt="">20</span>
+            <span class="cost"><img src="assets/icons/Icon_04.png" alt="">60</span>
           </span></dd>
         </dl>
         <p class="special" data-i18n="unit.warrior.special">单次伤害最高；对重甲 ×1.3。</p>
       </div>
 
       <div class="card">
-        <div class="portrait unit-icon"><img src="../UI%20Elements/Icons/product_monk.png" alt="修士" data-i18n-alt="unit.monk.name"></div>
+        <div class="portrait unit-icon"><img src="assets/icons/product_monk.png" alt="修士" data-i18n-alt="unit.monk.name"></div>
         <h4><span data-i18n="unit.monk.name">修士</span><span class="latin">monk</span></h4>
         <p class="desc" data-i18n="unit.monk.desc">能打的修士，也会给友军回血——前排挨打时，一个修士顶一个道具。</p>
         <dl class="kv">
@@ -450,9 +450,9 @@
           <dt data-i18n="stat.stamina">体力上限</dt><dd>12</dd>
           <dt data-i18n="stat.cost">招募造价</dt>
           <dd><span class="costs">
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">40</span>
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">30</span>
-            <span class="cost"><img src="../UI%20Elements/Icons/Icon_04.png" alt="">60</span>
+            <span class="cost"><img src="assets/icons/Icon_02.png" alt="">40</span>
+            <span class="cost"><img src="assets/icons/Icon_03.png" alt="">30</span>
+            <span class="cost"><img src="assets/icons/Icon_04.png" alt="">60</span>
           </span></dd>
         </dl>
         <p class="special" data-i18n="unit.monk.special">治疗 16 点生命，范围 3 格。</p>
@@ -478,7 +478,7 @@
     <div class="grid wide">
 
       <div class="card">
-        <div class="portrait"><img src="../enemy/Skull/Skull_Avatar.png" alt="骷髅" data-i18n-alt="enemy.skull.name"></div>
+        <div class="portrait"><img src="assets/enemies/Skull.png" alt="骷髅" data-i18n-alt="enemy.skull.name"></div>
         <h4><span data-i18n="enemy.skull.name">骷髅</span><span class="latin">skull</span></h4>
         <p><span class="badge normal" data-i18n="loop.counter.normal">普通</span></p>
         <p class="desc" data-i18n="enemy.skull.desc">最常见的夜间访客。</p>
@@ -493,7 +493,7 @@
       </div>
 
       <div class="card">
-        <div class="portrait"><img src="../enemy/Giant%20Bat/Giant%20Bat_Avatar.png" alt="巨蝠" data-i18n-alt="enemy.giant_bat.name"></div>
+        <div class="portrait"><img src="assets/enemies/GiantBat.png" alt="巨蝠" data-i18n-alt="enemy.giant_bat.name"></div>
         <h4><span data-i18n="enemy.giant_bat.name">巨蝠</span><span class="latin">giant_bat</span></h4>
         <p><span class="badge flying" data-i18n="loop.counter.flying">飞行</span></p>
         <p class="desc" data-i18n="enemy.giant_bat.desc">高速低血量的骚扰者。</p>
@@ -510,7 +510,7 @@
       </div>
 
       <div class="card">
-        <div class="portrait"><img src="../enemy/Spear%20Goblin/Spear%20Goblin_Avatar.png" alt="长矛哥布林" data-i18n-alt="enemy.spear_goblin.name"></div>
+        <div class="portrait"><img src="assets/enemies/SpearGoblin.png" alt="长矛哥布林" data-i18n-alt="enemy.spear_goblin.name"></div>
         <h4><span data-i18n="enemy.spear_goblin.name">长矛哥布林</span><span class="latin">spear_goblin</span></h4>
         <p><span class="badge normal" data-i18n="loop.counter.normal">普通</span></p>
         <p class="desc" data-i18n="enemy.spear_goblin.desc">血量厚实的中型近战兵。</p>
@@ -525,7 +525,7 @@
       </div>
 
       <div class="card">
-        <div class="portrait"><img src="../enemy/Gnome/Gnome_Avatar.png" alt="侏儒" data-i18n-alt="enemy.gnome.name"></div>
+        <div class="portrait"><img src="assets/enemies/Gnome.png" alt="侏儒" data-i18n-alt="enemy.gnome.name"></div>
         <h4><span data-i18n="enemy.gnome.name">侏儒</span><span class="latin">gnome</span></h4>
         <p><span class="badge normal" data-i18n="loop.counter.normal">普通</span></p>
         <p class="desc" data-i18n="enemy.gnome.desc">数值中庸的近战兵。</p>
@@ -541,7 +541,7 @@
       </div>
 
       <div class="card">
-        <div class="portrait"><img src="../enemy/Slingshot%20Gnome/Slingshot%20Gnome_Avatar.png" alt="弹弓侏儒" data-i18n-alt="enemy.slingshot_gnome.name"></div>
+        <div class="portrait"><img src="assets/enemies/SlingshotGnome.png" alt="弹弓侏儒" data-i18n-alt="enemy.slingshot_gnome.name"></div>
         <h4><span data-i18n="enemy.slingshot_gnome.name">弹弓侏儒</span><span class="latin">slingshot_gnome</span></h4>
         <p><span class="badge throwing" data-i18n="loop.counter.throwing">投掷</span></p>
         <p class="desc" data-i18n="enemy.slingshot_gnome.desc">第一个远程敌人。</p>
@@ -556,7 +556,7 @@
       </div>
 
       <div class="card">
-        <div class="portrait"><img src="../enemy/Gnoll/Gnoll_Avatar.png" alt="豺狼人" data-i18n-alt="enemy.gnoll.name"></div>
+        <div class="portrait"><img src="assets/enemies/Gnoll.png" alt="豺狼人" data-i18n-alt="enemy.gnoll.name"></div>
         <h4><span data-i18n="enemy.gnoll.name">豺狼人</span><span class="latin">gnoll</span></h4>
         <p><span class="badge throwing" data-i18n="loop.counter.throwing">投掷</span></p>
         <p class="desc" data-i18n="enemy.gnoll.desc">第二个远程敌人。</p>
@@ -571,7 +571,7 @@
       </div>
 
       <div class="card">
-        <div class="portrait"><img src="../enemy/Minotaur/Minotaur__Avatar.png" alt="牛头人" data-i18n-alt="enemy.minotaur.name"></div>
+        <div class="portrait"><img src="assets/enemies/Minotaur.png" alt="牛头人" data-i18n-alt="enemy.minotaur.name"></div>
         <h4><span data-i18n="enemy.minotaur.name">牛头人</span><span class="latin">minotaur</span></h4>
         <p><span class="badge heavy_armor" data-i18n="loop.counter.heavy_armor">重甲</span></p>
         <p class="desc" data-i18n="enemy.minotaur.desc">精英级近战。</p>
@@ -587,7 +587,7 @@
       </div>
 
       <div class="card">
-        <div class="portrait"><img src="../enemy/Hex%20Shaman/Hex%20Shaman_Avatar.png" alt="邪术萨满" data-i18n-alt="enemy.hex_shaman.name"></div>
+        <div class="portrait"><img src="assets/enemies/HexShaman.png" alt="邪术萨满" data-i18n-alt="enemy.hex_shaman.name"></div>
         <h4><span data-i18n="enemy.hex_shaman.name">邪术萨满</span><span class="latin">hex_shaman</span></h4>
         <p><span class="badge throwing" data-i18n="loop.counter.throwing">投掷</span></p>
         <p class="desc" data-i18n="enemy.hex_shaman.desc">远程法师。</p>
@@ -604,7 +604,7 @@
       </div>
 
       <div class="card">
-        <div class="portrait"><img src="../enemy/Torch%20Goblin/Torch%20Goblin_Avatar.png" alt="火把哥布林" data-i18n-alt="enemy.torch_goblin.name"></div>
+        <div class="portrait"><img src="assets/enemies/TorchGoblin.png" alt="火把哥布林" data-i18n-alt="enemy.torch_goblin.name"></div>
         <h4><span data-i18n="enemy.torch_goblin.name">火把哥布林</span><span class="latin">torch_goblin</span></h4>
         <p><span class="badge normal" data-i18n="loop.counter.normal">普通</span></p>
         <p class="desc" data-i18n="enemy.torch_goblin.desc">火把对建筑格外有效。</p>
@@ -620,7 +620,7 @@
       </div>
 
       <div class="card">
-        <div class="portrait"><img src="../Troll/Troll_Avatar.png" alt="巨魔" data-i18n-alt="enemy.troll.name"></div>
+        <div class="portrait"><img src="assets/enemies/Troll.png" alt="巨魔" data-i18n-alt="enemy.troll.name"></div>
         <h4><span data-i18n="enemy.troll.name">巨魔</span><span class="latin">troll</span></h4>
         <p><span class="badge heavy_armor" data-i18n="loop.counter.heavy_armor">重甲</span></p>
         <p class="desc" data-i18n="enemy.troll.desc">探索遗迹时被惊动的守怪。</p>
@@ -746,28 +746,28 @@
     <div class="grid wide">
 
       <div class="card">
-        <div class="portrait goods-icon"><img src="../goods/snare.png" alt="陷阱" data-i18n-alt="goods.snare.name"></div>
+        <div class="portrait goods-icon"><img src="assets/items/snare.png" alt="陷阱" data-i18n-alt="goods.snare.name"></div>
         <h4><span data-i18n="goods.snare.name">陷阱</span><span class="latin">snare</span></h4>
         <p class="desc" data-i18n="goods.snare.desc">使周围 1 格敌军定身 2 回合</p>
         <p class="special" data-i18n="goods.snare.effect">在指定空格放置陷阱。</p>
       </div>
 
       <div class="card">
-        <div class="portrait goods-icon"><img src="../goods/warsong.png" alt="战歌号角" data-i18n-alt="goods.warsong.name"></div>
+        <div class="portrait goods-icon"><img src="assets/items/warsong.png" alt="战歌号角" data-i18n-alt="goods.warsong.name"></div>
         <h4><span data-i18n="goods.warsong.name">战歌号角</span><span class="latin">warsong</span></h4>
         <p class="desc" data-i18n="goods.warsong.desc">提升全体己方单位攻击力</p>
         <p class="special" data-i18n="goods.warsong.effect">3 回合内攻击力 ×1.5。</p>
       </div>
 
       <div class="card">
-        <div class="portrait goods-icon"><img src="../goods/scroll.png" alt="回城卷轴" data-i18n-alt="goods.scroll.name"></div>
+        <div class="portrait goods-icon"><img src="assets/items/scroll.png" alt="回城卷轴" data-i18n-alt="goods.scroll.name"></div>
         <h4><span data-i18n="goods.scroll.name">回城卷轴</span><span class="latin">scroll</span></h4>
         <p class="desc" data-i18n="goods.scroll.desc">使选中的己方单位立即回到城堡</p>
         <p class="special" data-i18n="goods.scroll.effect">选中单位立即传送回城镇大厅。</p>
       </div>
 
       <div class="card">
-        <div class="portrait goods-icon"><img src="../goods/fishnet.png" alt="渔网" data-i18n-alt="goods.fishnet.name"></div>
+        <div class="portrait goods-icon"><img src="assets/items/fishnet.png" alt="渔网" data-i18n-alt="goods.fishnet.name"></div>
         <h4><span data-i18n="goods.fishnet.name">渔网</span><span class="latin">fishnet</span></h4>
         <p class="desc" data-i18n="goods.fishnet.desc">放置于鱼群上，每回合获得食物。</p>
         <p class="special" data-i18n="goods.fishnet.effect">每回合 +4 食物，持续 24 回合。</p>
@@ -787,34 +787,34 @@
           </tr></thead>
           <tbody>
             <tr>
-              <td class="key"><span class="res"><img src="../goods/snare.png" alt=""><span data-i18n="goods.snare.name">陷阱</span></span></td>
+              <td class="key"><span class="res"><img src="assets/items/snare.png" alt=""><span data-i18n="goods.snare.name">陷阱</span></span></td>
               <td><span class="costs">
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">10</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">25</span>
+                <span class="cost"><img src="assets/icons/Icon_03.png" alt="">10</span>
+                <span class="cost"><img src="assets/icons/Icon_02.png" alt="">25</span>
               </span></td>
               <td class="num">3</td>
             </tr>
             <tr>
-              <td class="key"><span class="res"><img src="../goods/warsong.png" alt=""><span data-i18n="goods.warsong.name">战歌号角</span></span></td>
+              <td class="key"><span class="res"><img src="assets/items/warsong.png" alt=""><span data-i18n="goods.warsong.name">战歌号角</span></span></td>
               <td><span class="costs">
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">15</span>
-                <span class="cost"><img src="../resource/Diamond.png" alt="">2</span>
+                <span class="cost"><img src="assets/icons/Icon_03.png" alt="">15</span>
+                <span class="cost"><img src="assets/gems/Diamond.png" alt="">2</span>
               </span></td>
               <td class="num">2</td>
             </tr>
             <tr>
-              <td class="key"><span class="res"><img src="../goods/scroll.png" alt=""><span data-i18n="goods.scroll.name">回城卷轴</span></span></td>
+              <td class="key"><span class="res"><img src="assets/items/scroll.png" alt=""><span data-i18n="goods.scroll.name">回城卷轴</span></span></td>
               <td><span class="costs">
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">10</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">20</span>
+                <span class="cost"><img src="assets/icons/Icon_03.png" alt="">10</span>
+                <span class="cost"><img src="assets/icons/Icon_02.png" alt="">20</span>
               </span></td>
               <td class="num">2</td>
             </tr>
             <tr>
-              <td class="key"><span class="res"><img src="../goods/fishnet.png" alt=""><span data-i18n="goods.fishnet.name">渔网</span></span></td>
+              <td class="key"><span class="res"><img src="assets/items/fishnet.png" alt=""><span data-i18n="goods.fishnet.name">渔网</span></span></td>
               <td><span class="costs">
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">10</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">50</span>
+                <span class="cost"><img src="assets/icons/Icon_03.png" alt="">10</span>
+                <span class="cost"><img src="assets/icons/Icon_02.png" alt="">50</span>
               </span></td>
               <td class="num">4</td>
             </tr>
@@ -839,7 +839,7 @@
       <!-- 大地女神 -->
       <div class="god">
         <div class="god-head">
-          <img src="../god/god1.png" alt="大地女神" data-i18n-alt="up.demeter.name">
+          <img src="assets/gods/god1.png" alt="大地女神" data-i18n-alt="up.demeter.name">
           <div>
             <h3 data-i18n="up.demeter.name">大地女神</h3>
             <div class="sub" data-i18n="up.demeter.sub">Demeter · 经济与采集</div>
@@ -848,41 +848,41 @@
         </div>
         <div class="up-list">
           <div class="up">
-            <img src="../UI%20Elements/upgrade/demeter_timber.png" alt="伐木精炼" data-i18n-alt="up.demeter_timber.name">
+            <img src="assets/upgrades/demeter_timber.png" alt="伐木精炼" data-i18n-alt="up.demeter_timber.name">
             <div>
               <h5 data-i18n="up.demeter_timber.name">伐木精炼</h5>
               <p class="desc" data-i18n="up.demeter_timber.desc">农民砍树更快</p>
               <p class="effect" data-i18n="up.demeter_timber.effect">每级 +2 木材/刀。</p>
               <div class="costs">
-                <span class="cost"><img src="../resource/Diamond.png" alt="">5</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">55</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">80</span>
+                <span class="cost"><img src="assets/gems/Diamond.png" alt="">5</span>
+                <span class="cost"><img src="assets/icons/Icon_03.png" alt="">55</span>
+                <span class="cost"><img src="assets/icons/Icon_02.png" alt="">80</span>
               </div>
             </div>
           </div>
           <div class="up">
-            <img src="../UI%20Elements/upgrade/demeter_recovery.png" alt="休养生息" data-i18n-alt="up.demeter_recovery.name">
+            <img src="assets/upgrades/demeter_recovery.png" alt="休养生息" data-i18n-alt="up.demeter_recovery.name">
             <div>
               <h5 data-i18n="up.demeter_recovery.name">休养生息</h5>
               <p class="desc" data-i18n="up.demeter_recovery.desc">驻防与修士都回得更快</p>
               <p class="effect" data-i18n="up.demeter_recovery.effect">每级 +4 生命值。</p>
               <div class="costs">
-                <span class="cost"><img src="../resource/Diamond.png" alt="">6</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">65</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">70</span>
+                <span class="cost"><img src="assets/gems/Diamond.png" alt="">6</span>
+                <span class="cost"><img src="assets/icons/Icon_03.png" alt="">65</span>
+                <span class="cost"><img src="assets/icons/Icon_02.png" alt="">70</span>
               </div>
             </div>
           </div>
           <div class="up">
-            <img src="../UI%20Elements/upgrade/demeter_fauna.png" alt="万物生发" data-i18n-alt="up.demeter_fauna.name">
+            <img src="assets/upgrades/demeter_fauna.png" alt="万物生发" data-i18n-alt="up.demeter_fauna.name">
             <div>
               <h5 data-i18n="up.demeter_fauna.name">万物生发</h5>
               <p class="desc" data-i18n="up.demeter_fauna.desc">动物更多、树更大、渔网多产粮</p>
               <p class="effect" data-i18n="up.demeter_fauna.effect">每级 +3 动物/天、+20 木材/树、+1 食物/回合。</p>
               <div class="costs">
-                <span class="cost"><img src="../resource/Diamond.png" alt="">5</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">30</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">50</span>
+                <span class="cost"><img src="assets/gems/Diamond.png" alt="">5</span>
+                <span class="cost"><img src="assets/icons/Icon_03.png" alt="">30</span>
+                <span class="cost"><img src="assets/icons/Icon_02.png" alt="">50</span>
               </div>
             </div>
           </div>
@@ -892,7 +892,7 @@
       <!-- 战争之神 -->
       <div class="god">
         <div class="god-head">
-          <img src="../god/god2.png" alt="战争之神" data-i18n-alt="up.mars.name">
+          <img src="assets/gods/god2.png" alt="战争之神" data-i18n-alt="up.mars.name">
           <div>
             <h3 data-i18n="up.mars.name">战争之神</h3>
             <div class="sub" data-i18n="up.mars.sub">Mars · 战斗与防线</div>
@@ -901,41 +901,41 @@
         </div>
         <div class="up-list">
           <div class="up">
-            <img src="../UI%20Elements/upgrade/mars_vitality.png" alt="不屈圣血" data-i18n-alt="up.mars_vitality.name">
+            <img src="assets/upgrades/mars_vitality.png" alt="不屈圣血" data-i18n-alt="up.mars_vitality.name">
             <div>
               <h5 data-i18n="up.mars_vitality.name">不屈圣血</h5>
               <p class="desc" data-i18n="up.mars_vitality.desc">全员更肉，近战更疼</p>
               <p class="effect" data-i18n="up.mars_vitality.effect">全体 +2 HP，近战 +2 攻击。</p>
               <div class="costs">
-                <span class="cost"><img src="../resource/Diamond.png" alt="">6</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">60</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">60</span>
+                <span class="cost"><img src="assets/gems/Diamond.png" alt="">6</span>
+                <span class="cost"><img src="assets/icons/Icon_03.png" alt="">60</span>
+                <span class="cost"><img src="assets/icons/Icon_02.png" alt="">60</span>
               </div>
             </div>
           </div>
           <div class="up">
-            <img src="../UI%20Elements/upgrade/mars_aegis.png" alt="圣光庇护" data-i18n-alt="up.mars_aegis.name">
+            <img src="assets/upgrades/mars_aegis.png" alt="圣光庇护" data-i18n-alt="up.mars_aegis.name">
             <div>
               <h5 data-i18n="up.mars_aegis.name">圣光庇护</h5>
               <p class="desc" data-i18n="up.mars_aegis.desc">全员更硬</p>
               <p class="effect" data-i18n="up.mars_aegis.effect">全体防御力 +2。</p>
               <div class="costs">
-                <span class="cost"><img src="../resource/Diamond.png" alt="">5</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">60</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">60</span>
+                <span class="cost"><img src="assets/gems/Diamond.png" alt="">5</span>
+                <span class="cost"><img src="assets/icons/Icon_03.png" alt="">60</span>
+                <span class="cost"><img src="assets/icons/Icon_02.png" alt="">60</span>
               </div>
             </div>
           </div>
           <div class="up">
-            <img src="../UI%20Elements/upgrade/mars_range.png" alt="穿云之矢" data-i18n-alt="up.mars_range.name">
+            <img src="assets/upgrades/mars_range.png" alt="穿云之矢" data-i18n-alt="up.mars_range.name">
             <div>
               <h5 data-i18n="up.mars_range.name">穿云之矢</h5>
               <p class="desc" data-i18n="up.mars_range.desc">1 级加射程，2–3 级加攻击</p>
               <p class="effect" data-i18n="up.mars_range.effect">1 级射程 +1；2–3 级攻击力 +2/级。</p>
               <div class="costs">
-                <span class="cost"><img src="../resource/Diamond.png" alt="">5</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">60</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">60</span>
+                <span class="cost"><img src="assets/gems/Diamond.png" alt="">5</span>
+                <span class="cost"><img src="assets/icons/Icon_03.png" alt="">60</span>
+                <span class="cost"><img src="assets/icons/Icon_02.png" alt="">60</span>
               </div>
             </div>
           </div>
@@ -945,7 +945,7 @@
       <!-- 锤炼之神 -->
       <div class="god">
         <div class="god-head">
-          <img src="../god/god3.png" alt="锤炼之神" data-i18n-alt="up.hephaestus.name">
+          <img src="assets/gods/god3.png" alt="锤炼之神" data-i18n-alt="up.hephaestus.name">
           <div>
             <h3 data-i18n="up.hephaestus.name">锤炼之神</h3>
             <div class="sub" data-i18n="up.hephaestus.sub">Hephaestus · 建筑与工事</div>
@@ -954,41 +954,41 @@
         </div>
         <div class="up-list">
           <div class="up">
-            <img src="../UI%20Elements/upgrade/hephaestus_architecture.png" alt="神工营建" data-i18n-alt="up.hephaestus_architecture.name">
+            <img src="assets/upgrades/hephaestus_architecture.png" alt="神工营建" data-i18n-alt="up.hephaestus_architecture.name">
             <div>
               <h5 data-i18n="up.hephaestus_architecture.name">神工营建</h5>
               <p class="desc" data-i18n="up.hephaestus_architecture.desc">盖房子更快</p>
               <p class="effect" data-i18n="up.hephaestus_architecture.effect">这一项目前不会带来任何效果——宝石先留给别的三项。</p>
               <div class="costs">
-                <span class="cost"><img src="../resource/Diamond.png" alt="">5</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">80</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">150</span>
+                <span class="cost"><img src="assets/gems/Diamond.png" alt="">5</span>
+                <span class="cost"><img src="assets/icons/Icon_03.png" alt="">80</span>
+                <span class="cost"><img src="assets/icons/Icon_02.png" alt="">150</span>
               </div>
             </div>
           </div>
           <div class="up">
-            <img src="../UI%20Elements/upgrade/hephaestus_walls.png" alt="金石固壁" data-i18n-alt="up.hephaestus_walls.name">
+            <img src="assets/upgrades/hephaestus_walls.png" alt="金石固壁" data-i18n-alt="up.hephaestus_walls.name">
             <div>
               <h5 data-i18n="up.hephaestus_walls.name">金石固壁</h5>
               <p class="desc" data-i18n="up.hephaestus_walls.desc">所有建筑更耐打</p>
               <p class="effect" data-i18n="up.hephaestus_walls.effect">每级建筑最大生命值 +15。</p>
               <div class="costs">
-                <span class="cost"><img src="../resource/Diamond.png" alt="">5</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">80</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">200</span>
+                <span class="cost"><img src="assets/gems/Diamond.png" alt="">5</span>
+                <span class="cost"><img src="assets/icons/Icon_03.png" alt="">80</span>
+                <span class="cost"><img src="assets/icons/Icon_02.png" alt="">200</span>
               </div>
             </div>
           </div>
           <div class="up">
-            <img src="../UI%20Elements/upgrade/hephaestus_mining.png" alt="采矿精炼" data-i18n-alt="up.hephaestus_mining.name">
+            <img src="assets/upgrades/hephaestus_mining.png" alt="采矿精炼" data-i18n-alt="up.hephaestus_mining.name">
             <div>
               <h5 data-i18n="up.hephaestus_mining.name">采矿精炼</h5>
               <p class="desc" data-i18n="up.hephaestus_mining.desc">农民采得更多金币</p>
               <p class="effect" data-i18n="up.hephaestus_mining.effect">每级采矿 +1 金币。</p>
               <div class="costs">
-                <span class="cost"><img src="../resource/Diamond.png" alt="">5</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_03.png" alt="">90</span>
-                <span class="cost"><img src="../UI%20Elements/Icons/Icon_02.png" alt="">100</span>
+                <span class="cost"><img src="assets/gems/Diamond.png" alt="">5</span>
+                <span class="cost"><img src="assets/icons/Icon_03.png" alt="">90</span>
+                <span class="cost"><img src="assets/icons/Icon_02.png" alt="">100</span>
               </div>
             </div>
           </div>

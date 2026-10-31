@@ -6,18 +6,18 @@
 /* ---- 像素字体（仅拉丁字形） ---- */
 @font-face {
   font-family: 'Pixeloid';
-  src: url('../UI%20Elements/Pixeloid_Font_1_0/TrueType%20(.ttf)/PixeloidSans.ttf') format('truetype');
+  src: url('assets/fonts/PixeloidSans.ttf') format('truetype');
   font-display: swap;
 }
 @font-face {
   font-family: 'Pixeloid';
-  src: url('../UI%20Elements/Pixeloid_Font_1_0/TrueType%20(.ttf)/PixeloidSans-Bold.ttf') format('truetype');
+  src: url('assets/fonts/PixeloidSans-Bold.ttf') format('truetype');
   font-weight: 700;
   font-display: swap;
 }
 @font-face {
   font-family: 'PixeloidMono';
-  src: url('../UI%20Elements/Pixeloid_Font_1_0/TrueType%20(.ttf)/PixeloidMono.ttf') format('truetype');
+  src: url('assets/fonts/PixeloidMono.ttf') format('truetype');
   font-display: swap;
 }
 
@@ -129,7 +129,7 @@ a { color: var(--gold); }
 }
 .hero-bg {
   position: absolute; inset: 0;
-  background-image: url('../UI%20Elements/cover.png');
+  background-image: url('assets/cover.png');
   background-size: cover; background-position: center top;
   filter: brightness(.34) saturate(.7);
 }
