@@ -15,12 +15,7 @@
     var saved = null;
     try { saved = localStorage.getItem(STORE_KEY); } catch (e) { /* file:// 可能禁用 */ }
     if (saved && LANGS.indexOf(saved) !== -1) return saved;
-
-    var nav = (navigator.language || navigator.userLanguage || 'zh').toLowerCase();
-    if (nav.indexOf('ja') === 0) return 'ja';
-    if (nav.indexOf('zh') === 0) return 'zh';
-    if (nav.indexOf('en') === 0) return 'en';
-    return 'zh';
+    return 'en';   // 默认英文 — 不做浏览器语言嗅探, 手动切换后才记住
   }
 
   function format(template, args) {

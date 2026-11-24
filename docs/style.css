@@ -208,6 +208,14 @@ section:nth-of-type(even) { background: var(--bg-alt); border-top: 2px solid var
 }
 .note strong { color: var(--ink); }
 
+/* 重点机制提示框（灌木闪避等） */
+.callout {
+  border: 2px solid var(--line); border-left: 4px solid var(--teal);
+  background: linear-gradient(90deg, #1b2a2c, var(--panel) 60%);
+  padding: 14px 18px; margin: 18px 0 0; color: var(--ink-dim); font-size: .95rem;
+}
+.callout p { margin: 0; max-width: 78ch; }
+
 /* ============================ 卡片 ============================ */
 .grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fill, minmax(272px, 1fr)); }
 .grid.wide { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
