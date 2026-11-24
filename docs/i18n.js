@@ -7,6 +7,8 @@ window.I18N = {
 
 /* ─────────────────────────────── 中文 ─────────────────────────────── */
 zh: {
+  "page.title": "像素防线：破晓之战 · 官方 Wiki",
+
   "nav.skip": "跳到主内容",
   "nav.overview": "概览",
   "nav.loop": "核心玩法",
@@ -20,6 +22,7 @@ zh: {
   "nav.systems": "更多系统",
   "nav.language": "语言",
 
+  "hero.wiki": "官方 Wiki",
   "hero.eyebrow": "2D 回合制策略生存",
   "hero.title": "像素防线：破晓之战",
   "hero.titleLatin": "PIXEL BULWARK: BEFORE DAWN",
@@ -414,6 +417,8 @@ zh: {
 
 /* ─────────────────────────────── English ─────────────────────────────── */
 en: {
+  "page.title": "Pixel Bulwark: Before Dawn · Official Wiki",
+
   "nav.skip": "Skip to content",
   "nav.overview": "Overview",
   "nav.loop": "Core Loop",
@@ -427,6 +432,7 @@ en: {
   "nav.systems": "More Systems",
   "nav.language": "Language",
 
+  "hero.wiki": "Official Wiki",
   "hero.eyebrow": "2D turn-based strategy survival",
   "hero.title": "Pixel Bulwark: Before Dawn",
   "hero.titleLatin": "PIXEL BULWARK: BEFORE DAWN",
@@ -821,6 +827,8 @@ en: {
 
 /* ─────────────────────────────── 日本語 ─────────────────────────────── */
 ja: {
+  "page.title": "ピクセル・ブルワーク：暁まで · 公式 Wiki",
+
   "nav.skip": "本文へスキップ",
   "nav.overview": "概要",
   "nav.loop": "基本ルール",
@@ -834,6 +842,7 @@ ja: {
   "nav.systems": "その他システム",
   "nav.language": "言語",
 
+  "hero.wiki": "公式 Wiki",
   "hero.eyebrow": "2D ターン制サバイバル戦略",
   "hero.title": "ピクセル・ブルワーク：暁まで",
   "hero.titleLatin": "PIXEL BULWARK: BEFORE DAWN",

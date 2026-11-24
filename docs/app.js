@@ -54,7 +54,7 @@
     });
 
     document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : lang);
-    if (t['hero.title']) document.title = 'Pixel Bulwark · ' + t['hero.title'];
+    document.title = t['page.title'] || ('Pixel Bulwark · ' + (t['hero.title'] || ''));
 
     document.querySelectorAll('.lang-switch button').forEach(function (btn) {
       btn.setAttribute('aria-pressed', btn.getAttribute('data-lang') === lang ? 'true' : 'false');
