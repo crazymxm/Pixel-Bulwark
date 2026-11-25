@@ -219,6 +219,8 @@ zh: {
   "bld.note1": "初始人口上限为 4；建筑完工后按上表增加人口上限，建筑被摧毁时回收。",
   "bld.note2": "城镇大厅与塔楼顶部是独立的高处站位，地面单位可走上或走下。城堡顶 3 格、塔顶 1 格。",
   "bld.note4": "没有生产队列——付清资源即刻出兵，不用排队；但需要空位，也不能超过人口上限。",
+  "bld.note5": "10 天战役期间（第 1–10 天），人口额外封顶为 20：实际能带的人数取「建筑人口上限」与 20 的较小值。撑过第 10 天、选择继续挑战后，封顶解除。",
+  "bld.note6": "农民全部阵亡且人口已满时，「神的恩惠」允许你再造 1 名农民——可以突破建筑人口上限，但突破不了上面那条 20 人封顶。",
 
   "unit.farmer.name": "农民",
   "unit.farmer.desc": "采集和建造的主力，一个人干两份活。",
@@ -369,6 +371,7 @@ zh: {
   "quest.goal": "目标",
   "quest.reward": "奖励",
   "quest.note": "四条任务并行推进，全部达标后进入下一轮：目标翻倍（人口目标按 6 → 10 → 16 → 24 → 34 … 递增），奖励按轮次线性放大，可无限循环。夜间击杀的怪物不计入狩猎任务。",
+  "quest.note2": "人口目标不会超过当前的人口上限——想把它推高，就去多盖房子。",
 
   "sys.dawn.title": "晨曦抉择",
   "sys.dawn.p": "从第 2 天起，每天天亮都会抛出一个二选一的难题：5 个事件随机抽 1 个，且最近 2 天抽到过的事件会被排除，所以同一个事件不会连着出现 3 天。选中的效果持续到次日天亮。",
@@ -629,6 +632,8 @@ en: {
   "bld.note1": "You start with a population cap of 4. Each finished building adds to it, and destroying a building gives that population back.",
   "bld.note2": "The Town Hall and Tower roofs are separate elevated stations. Ground units can walk on and off them. The hall holds 3, the tower 1.",
   "bld.note4": "There is no production queue — resources in, unit out — but a free tile is required and the population cap still applies.",
+  "bld.note5": "Throughout the 10-day run (days 1–10) your population is capped at 20 on top of your building cap — the lower of the two is what you can field. The ceiling lifts once you survive day 10 and choose to keep going.",
+  "bld.note6": "If every farmer has fallen and you are already at the cap, Divine Grace lets you train one more farmer — past your building cap, though never past the 20 ceiling above.",
 
   "unit.farmer.name": "Farmer",
   "unit.farmer.desc": "Your worker: gathers resources and raises buildings, all by himself.",
@@ -779,6 +784,7 @@ en: {
   "quest.goal": "Goal",
   "quest.reward": "Reward",
   "quest.note": "Four quests run in parallel. Completing all of them advances a round: goals double (the population goal climbs 6 → 10 → 16 → 24 → 34 …) while rewards scale with the round, indefinitely. Monsters killed at night do not count toward the hunting quest.",
+  "quest.note2": "The population goal never asks for more people than your population cap allows — build more houses to raise that number.",
 
   "sys.dawn.title": "Dawn Choice",
   "sys.dawn.p": "From day 2 onward, every dawn brings a two-option dilemma. One of five events is drawn at random, and the last two days' events are excluded — so you never see the same one three days running. The effect lasts until the next dawn.",
@@ -1039,6 +1045,8 @@ ja: {
   "bld.note1": "人口上限の初期値は 4。建物が完成すると上表の分だけ増え、破壊されると戻ります。",
   "bld.note2": "タウンホールと防衛塔の屋上は独立した高所の陣地。地上のユニットは乗り降りできます。ホールは 3 マス、塔は 1 マス。",
   "bld.note4": "生産キューはありません——資源を支払えば即座に出兵します。ただし空きマスの必要があり、人口上限も適用されます。",
+  "bld.note5": "10 日間のプレイ中（第 1〜10 日）、人口は 20 人を上限として此外に封頂されます（実際に保有できる人数は建物の上限と 20 の低い方）。10 日目を生き延びて続けるを選んだ場合、封頂は解けます。",
+  "bld.note6": "農民が全滅して人口も上限に達しているとき、「神の恩恵」で農民をもう 1 人だけ作成できます（建物の上限は超えられますが、上の 20 人の封頂は超えられません）。",
 
   "unit.farmer.name": "農民",
   "unit.farmer.desc": "採集と建設を担う作業員。ひとりで 2 つの役割をこなします。",
@@ -1189,6 +1197,7 @@ ja: {
   "quest.goal": "目標",
   "quest.reward": "報酬",
   "quest.note": "4 本の任務を並行して進行し、すべて達成すると次のラウンドへ。目標は倍増（人口目標は 6 → 10 → 16 → 24 → 34 …）、報酬はラウンド数に応じて増加し、無限に繰り返せます。夜の敵の撃破は狩猟任務に数えません。",
+  "quest.note2": "人口目標は現在の人口上限を超えることはありません。上限を上げるには家を建てましょう。",
 
   "sys.dawn.title": "暁の選択",
   "sys.dawn.p": "2 日目以降、暁ごとに二つの選択肢が提示されます。5 つのイベントからランダムに 1 つ引き、前 2 日に出たイベントは除外されるので、同じものが 3 日連続で出ることはありません。効果は翌日の夜明けまで続きます。",
